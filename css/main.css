@@ -7,7 +7,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #35383d;
+    color: #214478;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #b5bfce;
+    color: #808080;
 }
 a:hover {
     text-decoration: underline;
@@ -23,7 +23,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    border-bottom: 1px solid #302d59
+    border-bottom: 1px solid #808080
 }
 h2 {
     font-size: 2em;
@@ -34,7 +34,7 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
-    border-top: 3px solid #4a4b63;
+    border-top: 3px solid #808080;
     font-size: .8em;
 }
 
