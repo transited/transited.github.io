@@ -51,6 +51,10 @@ footer {
     border-top: 3px solid #808080;
     font-size: .8em;
 }
+ul{
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  list-style-type: square;
+}
 
 ul.posts {
     margin: 20px auto 40px;
