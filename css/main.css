@@ -7,6 +7,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    color: #35383d;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -33,7 +34,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 3px solid #4a4b63;
     font-size: .8em;
 }
 
