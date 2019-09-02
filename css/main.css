@@ -66,6 +66,9 @@ ul.posts li {
 }
 
 .center {
-  max-width=60%
-  height=auto;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
