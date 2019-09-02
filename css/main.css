@@ -64,3 +64,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.center {
+  max-width=60%
+  height=auto;
+}
