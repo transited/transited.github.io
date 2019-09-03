@@ -72,3 +72,8 @@ ul.posts li {
   margin-right: auto;
   height: auto;
 }
+
+sup{
+  vertical-align: top;
+  font-size: 0.5em;
+}
