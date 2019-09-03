@@ -73,7 +73,13 @@ ul.posts li {
   height: auto;
 }
 
+sub, sup{
+  font-size: 60%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
 sup{
-  vertical-align: top;
-  font-size: 0.5em;
+  top:-0.5em;
 }
