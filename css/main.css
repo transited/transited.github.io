@@ -81,9 +81,9 @@ ul.posts li {
 }
 
 .rails{
-  position:absolute;
-  right: 0px;
-  margin-right: 20px;
+  position:relative;
+  display: inline;
+  float: right;
 }
 
 sub, sup{
