@@ -81,7 +81,7 @@ ul.posts li {
 }
 
 .rails{
-  position:relative;
+  position:absolute;
   right: 0px;
   margin-right: 20px;
 }
