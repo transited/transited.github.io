@@ -80,6 +80,12 @@ ul.posts li {
   float: right;
 }
 
+.rails{
+  position:relative;
+  right: 0px;
+  margin-right: 20px;
+}
+
 sub, sup{
   font-size: 60%;
   line-height: 0;
