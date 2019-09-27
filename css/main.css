@@ -101,9 +101,10 @@ sup{
   body{
     background-color: red;
   }
-  nav ul li, footer ul li {
-    display: inline-block;
-    margin-right: 20px;
+  .img-container{
+    float: left;
+    width: 50%;
+    padding: 10px;
   }
 }
 
@@ -114,5 +115,10 @@ sup{
   nav ul li, footer ul li {
     display: inline-block;
     margin-right: 20px;
+  }
+  .img-container{
+    float: left;
+    width: 50%;
+    padding: 10px;
   }
 }
