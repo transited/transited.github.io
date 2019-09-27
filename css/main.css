@@ -80,6 +80,12 @@ ul.posts li {
   float: right;
 }
 
+.rails{
+  position:absolute;
+  right: 0px;
+  margin-right: 20px;
+}
+
 sub, sup{
   font-size: 60%;
   line-height: 0;
@@ -91,17 +97,20 @@ sup{
   top:-0.5em;
 }
 
-@media only screen and (max-width:480px)
-{
-  background-color: lightblue;
+@media only screen and (max-width:480px){
+  body{
+    background-color: lightblue;
+  }
 }
 
-@media only screen and (max-width:640px)
-{
-  background-color: red;
+@media only screen and (max-width:640px){
+  body{
+    background-color: red;
+  }
 }
 
-@media only screen and (min-width:1025px)
-{
-  background-color: gray;
+@media only screen and (min-width:1025px){
+  body{
+    background-color: gray;
+  }
 }
