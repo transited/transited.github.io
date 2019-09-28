@@ -101,12 +101,14 @@ sup{
   body{
     background-color: red;
     width: 85%;
+    margin: 20px auto;
   }
 }
 
 @media only screen and (min-width:901px){
   body{
     background-color: lightgreen;
+    margin: 40px auto;
   }
   nav ul li, footer ul li {
     display: inline-block;
