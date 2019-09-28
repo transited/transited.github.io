@@ -119,6 +119,10 @@ sup{
   max-width: 100%;
 }
 
+.column img {
+  vertical-align: middle;
+}
+
 @media only screen and (min-width:640px) {
   body{
     background-color: red;
@@ -127,6 +131,7 @@ sup{
   .column {
     flex: 50%;
     max-width: 50%;
+    padding: 0 10px;
   }
 }
 
@@ -142,4 +147,5 @@ sup{
   .column {
     flex: 50%;
     max-width: 50%;
+    padding: 0 10px;
 }
