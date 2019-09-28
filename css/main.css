@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 60px auto;
+    margin: 20px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -78,6 +82,7 @@ ul.posts li {
   display: inline;
   height: auto;
   float: right;
+  margin: 10px;
 }
 
 .rails{
@@ -97,11 +102,23 @@ sup{
   top:-0.5em;
 }
 
+.img-container {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border-style: solid; 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 @media only screen and (min-width:640px){
   body{
     background-color: red;
     width: 85%;
-    margin: 20px auto;
   }
 }
 
