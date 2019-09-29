@@ -4,7 +4,7 @@
 
 body {
     margin: 20px auto;
-    width: 70%;
+    width: 90%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -82,7 +82,7 @@ ul.posts li {
   display: inline;
   height: auto;
   float: right;
-  margin: 10px;
+  margin: 20px;
 }
 
 .rails{
@@ -113,15 +113,30 @@ sup{
     background-color: red;
     width: 85%;
   }
+  .right {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width:901px) {
   body{
     background-color: lightgreen;
     margin: 40px auto;
+    width: 70%;
   }
   nav ul li, footer ul li {
     display: inline-block;
     margin-right: 20px;
+  }
+  .right {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
   }
 }
