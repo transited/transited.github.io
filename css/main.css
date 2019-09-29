@@ -108,6 +108,24 @@ sup{
   display: table;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
 @media only screen and (min-width:640px) {
   body{
     background-color: red;
@@ -119,6 +137,11 @@ sup{
     height: auto;
     float: right;
     margin: 20px;
+  }
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 10px;
   }
 }
 
@@ -134,9 +157,5 @@ sup{
   }
   .right{
     max-width: 50%;
-    display: inline;
-    height: auto;
-    float: right;
-    margin: 20px;
   }
 }
