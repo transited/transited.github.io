@@ -78,11 +78,11 @@ ul.posts li {
 }
 
 .right{
-  max-width: 40%;
-  display: inline;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
-  float: right;
-  margin: 20px;
 }
 
 .rails{
@@ -113,12 +113,12 @@ sup{
     background-color: red;
     width: 85%;
   }
-  .right {
-    max-width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .right{
+    max-width: 40%;
+    display: inline;
     height: auto;
+    float: right;
+    margin: 20px;
   }
 }
 
@@ -132,11 +132,11 @@ sup{
     display: inline-block;
     margin-right: 20px;
   }
-  .right {
-    max-width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .right{
+    max-width: 50%;
+    display: inline;
     height: auto;
+    float: right;
+    margin: 20px;
   }
 }
