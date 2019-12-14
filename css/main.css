@@ -190,11 +190,64 @@ sup{
 
 .pcheck{background-color:CornflowerBlue; font-weight:bold;}
 .scheck{background-color:Orange; font-weight:bold;}
+.acheck{background-color:Gold; font-weight:bold;}
 .dcheck{background-color:LightGreen; font-weight:bold;}
 .pmcheck{background-color:Gray; font-weight:bold;}
 
 .phead {
   background-color: CornflowerBlue;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 21px -18px; /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -webkit-transform-origin: 21px -18px; /* Safari 3-8 */
+  transform: rotate(45deg);
+  transform-origin: 21px -18px;
+  border-bottom: 1px solid black;
+  text-align: Center;
+  white-space: nowrap;
+}
+
+.shead {
+  background-color: Orange;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 21px -18px; /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -webkit-transform-origin: 21px -18px; /* Safari 3-8 */
+  transform: rotate(45deg);
+  transform-origin: 21px -18px;
+  border-bottom: 1px solid black;
+  text-align: Center;
+  white-space: nowrap;
+}
+
+.ahead {
+  background-color: Gold;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 21px -18px; /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -webkit-transform-origin: 21px -18px; /* Safari 3-8 */
+  transform: rotate(45deg);
+  transform-origin: 21px -18px;
+  border-bottom: 1px solid black;
+  text-align: Center;
+  white-space: nowrap;
+}
+
+.dhead {
+  background-color: LightGreen;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 21px -18px; /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -webkit-transform-origin: 21px -18px; /* Safari 3-8 */
+  transform: rotate(45deg);
+  transform-origin: 21px -18px;
+  border-bottom: 1px solid black;
+  text-align: Center;
+  white-space: nowrap;
+}
+
+.pmhead {
+  background-color: Gray;
   -ms-transform: rotate(45deg); /* IE 9 */
   -ms-transform-origin: 21px -18px; /* IE 9 */
   -webkit-transform: rotate(45deg); /* Safari 3-8 */
@@ -216,3 +269,15 @@ input[type='checkbox'] {display: none;}
   background: DarkGray;
   cursor: pointer;
 }
+
+.lbl-toggle:hover {font-weight: bold;}
+
+.lbl-toggle::before {content: '+';display: inline-block;}
+
+.toggle:checked + .lbl-toggle::before {content: '-';}
+
+.collapsible-content {max-height: 0px; overflow: hidden;}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {max-height: 80vh;}
+
+.collapsible-content .content-inner {padding: 2px; text-align: left;}
