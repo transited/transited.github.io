@@ -160,3 +160,59 @@ sup{
     max-width: 50%;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+  background-color: LightGray;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 5px 0px;
+  align: middle;
+}
+
+.ltkclient {background-color: Pink; border-top: 1px solid black; grid-column: 1/14;}
+.calclient {background-color: Khaki; border-top: 1px solid black; grid-column: 1/14;}
+.navyclient {background-color: LightSteelBlue; border-top: 1px solid black; grid-column: 1/14;}
+.proj{grid-column:1/11}
+.jobdate {grid-column: 11/14;}
+.plan {background-color: CornflowerBlue; grid-column:1/5;}
+.sim {background-color: Orange; grid-column:5/7;}
+.analy {background-color: Gold; grid-column:7/10;}
+.design {background-color: LightGreen; grid-column:10/13;}
+.pm {background-color: Gray; grid-column:13/14;}
+.ltk {background-color: Maroon; border-top: 1px solid black; grid-column:1/14; font-weight: bold; color: white;}
+.cal {background-color: Yellow; border-top: 1px solid black; grid-column: 1/14; font-weight: bold;}
+.navy {background-color: Navy; border-top: 1px solid black; grid-column:1/14; font-weight: bold; color: white;}
+
+.pcheck{background-color:CornflowerBlue; font-weight:bold;}
+.scheck{background-color:Orange; font-weight:bold;}
+.dcheck{background-color:LightGreen; font-weight:bold;}
+.pmcheck{background-color:Gray; font-weight:bold;}
+
+.phead {
+  background-color: CornflowerBlue;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 21px -18px; /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -webkit-transform-origin: 21px -18px; /* Safari 3-8 */
+  transform: rotate(45deg);
+  transform-origin: 21px -18px;
+  border-bottom: 1px solid black;
+  text-align: Center;
+  white-space: nowrap;
+}
+
+.wrap-collabsible {margin-bottom: 1rem 0;grid-column:1/14;}
+
+input[type='checkbox'] {display: none;}
+
+.lbl-toggle {
+  display: block;
+  text-align: center;
+  background: DarkGray;
+  cursor: pointer;
+}
