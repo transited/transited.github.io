@@ -163,9 +163,11 @@ sup{
 
 .grid-container {
   display: grid;
-  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+  grid-template-columns: 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px;
+  grid-template-rows: 120px;
   background-color: LightGray;
   padding: 10px;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 .grid-container > div {
@@ -195,6 +197,7 @@ sup{
 .pmcheck{background-color:Gray; font-weight:bold;}
 
 .phead {
+  text-align: center;
   background-color: CornflowerBlue;
   -ms-transform: rotate(45deg); /* IE 9 */
   -ms-transform-origin: 21px -18px; /* IE 9 */
@@ -208,6 +211,7 @@ sup{
 }
 
 .shead {
+  text-align: center;
   background-color: Orange;
   -ms-transform: rotate(45deg); /* IE 9 */
   -ms-transform-origin: 21px -18px; /* IE 9 */
@@ -221,6 +225,7 @@ sup{
 }
 
 .ahead {
+  text-align: center;
   background-color: Gold;
   -ms-transform: rotate(45deg); /* IE 9 */
   -ms-transform-origin: 21px -18px; /* IE 9 */
@@ -234,6 +239,7 @@ sup{
 }
 
 .dhead {
+  text-align: center;
   background-color: LightGreen;
   -ms-transform: rotate(45deg); /* IE 9 */
   -ms-transform-origin: 21px -18px; /* IE 9 */
@@ -247,6 +253,7 @@ sup{
 }
 
 .pmhead {
+  text-align: center;
   background-color: Gray;
   -ms-transform: rotate(45deg); /* IE 9 */
   -ms-transform-origin: 21px -18px; /* IE 9 */
