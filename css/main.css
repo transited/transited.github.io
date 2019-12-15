@@ -197,6 +197,7 @@ sup{
 .pmcheck{background-color:Gray; font-weight:bold;}
 
 .phead {
+  padding: 1px;
   text-align: center;
   background-color: CornflowerBlue;
   -ms-transform: rotate(45deg); /* IE 9 */
@@ -211,6 +212,7 @@ sup{
 }
 
 .shead {
+  padding: 1px;
   text-align: center;
   background-color: Orange;
   -ms-transform: rotate(45deg); /* IE 9 */
@@ -225,6 +227,7 @@ sup{
 }
 
 .ahead {
+  padding: 1px;
   text-align: center;
   background-color: Gold;
   -ms-transform: rotate(45deg); /* IE 9 */
@@ -239,6 +242,7 @@ sup{
 }
 
 .dhead {
+  padding: 1px;
   text-align: center;
   background-color: LightGreen;
   -ms-transform: rotate(45deg); /* IE 9 */
@@ -253,6 +257,7 @@ sup{
 }
 
 .pmhead {
+  padding: 1px;
   text-align: center;
   background-color: Gray;
   -ms-transform: rotate(45deg); /* IE 9 */
