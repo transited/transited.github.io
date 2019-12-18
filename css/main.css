@@ -151,7 +151,7 @@ sup {
 @media only screen and (min-width:901px) {
   body {
     margin: 40px auto;
-    width: 70%;
+    width: 82%;
   }
   nav ul li, footer ul li {
     display: inline-block;
@@ -163,6 +163,9 @@ sup {
 }
 
 .flex-container {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   display: flex;
   flex-wrap: nowrap;
   padding-left: 84px;
@@ -201,6 +204,7 @@ sup {
   margin-left: 84px;
   border-style: hidden solid solid solid;
   border-width: 1px;
+  font-size: .7em;
 }
 
 .grid-container > div {
