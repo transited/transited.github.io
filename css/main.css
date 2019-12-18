@@ -5,6 +5,7 @@
 body {
     margin: 20px auto;
     width: 90%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -197,8 +198,9 @@ sup {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  background-color: LightGray;
   margin-left: 84px;
+  border-style: hidden solid solid solid;
+  border-width: 1px;
 }
 
 .grid-container > div {
@@ -228,7 +230,7 @@ sup {
 .dcheck{background-color:LightGreen; font-weight:bold;}
 .pmcheck{background-color:Gray; font-weight:bold;}
 
-.wrap-collabsible {margin-bottom: 1rem 0;grid-column:1/14;}
+.wrap-collabsible {grid-column:span 13;}
 
 input[type='checkbox'] {display: none;}
 
