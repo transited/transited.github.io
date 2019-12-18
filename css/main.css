@@ -218,7 +218,7 @@ sup {
 .ltkclient {background-color: Pink; border-top: 1px solid black; grid-column: span 13;}
 .calclient {background-color: Khaki; border-top: 1px solid black; grid-column: span 13;}
 .navyclient {background-color: LightSteelBlue; border-top: 1px solid black; grid-column: span 13;}
-.proj{grid-column: span 10}
+.proj {grid-column: span 10}
 .jobdate {grid-column: span 3;}
 .plan {background-color: CornflowerBlue; grid-column:span 4; border-right: solid 1px black;}
 .sim {background-color: Orange; grid-column: span 2;}
@@ -228,7 +228,7 @@ sup {
 .ltk {background-color: Maroon; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
 .cal {background-color: Gold; border-top: 1px solid black; grid-column: span 13; font-weight: bold;}
 .navy {background-color: Navy; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
-.focus{grid-column: span 6;}
+.focus {grid-column: span 6;}
 
 .pcheck{background-color:CornflowerBlue; font-weight:bold;}
 .scheck{background-color:Orange; font-weight:bold;}
