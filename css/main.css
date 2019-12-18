@@ -203,7 +203,7 @@ sup {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   margin-left: 84px;
-  border-style: hidden solid solid solid;
+  border-style: solid;
   border-width: 1px;
   font-size: .7em;
 }
@@ -220,14 +220,15 @@ sup {
 .navyclient {background-color: LightSteelBlue; border-top: 1px solid black; grid-column: span 13;}
 .proj{grid-column: span 10}
 .jobdate {grid-column: span 3;}
-.plan {background-color: CornflowerBlue; grid-column:span 4; border-style: hidden solid; border-width: 1px;}
+.plan {background-color: CornflowerBlue; grid-column:span 4; border-right: solid 1px black;}
 .sim {background-color: Orange; grid-column: span 2;}
 .analy {background-color: Gold; grid-column:span 3; border-style: hidden solid; border-width: 1px;}
 .design {background-color: LightGreen; grid-column:span 3;}
 .pm {background-color: Gray; grid-column: span 1; border-style: hidden solid; border-width: 1px;}
 .ltk {background-color: Maroon; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
 .cal {background-color: Gold; border-top: 1px solid black; grid-column: span 13; font-weight: bold;}
-.navy {background-color: Navy; border-top: 1px solid black; grid-column:span 13; font-weight: bold; color: white;}
+.navy {background-color: Navy; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
+.focus{grid-column: span 6;}
 
 .pcheck{background-color:CornflowerBlue; font-weight:bold;}
 .scheck{background-color:Orange; font-weight:bold;}
@@ -257,3 +258,15 @@ input[type='checkbox'] {display: none;}
 .toggle:checked + .lbl-toggle + .collapsible-content {max-height: 80vh;}
 
 .collapsible-content .content-inner {padding: 2px; text-align: left;}
+
+.edu-container {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  border: solid 1px black;
+}
+
+.edu-container > div {
+  text-align: center;
+  padding: 5px 5px;
+  align: middle;
+}
