@@ -176,6 +176,7 @@ sup {
 .skew {
   transform: skewx(45deg) translate(-60px,0px);
   border-left: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: #f1f1f1;
   height:120px;
   width: calc(calc(100vw - 84px) / 13);
@@ -190,6 +191,7 @@ sup {
   height: 10px;
   width: 5.44vw;
   text-align: right;
+  font-size: .7em
   line-height: 10px;
   transform: skewX(-45deg) rotate(45deg) translate(calc(169.7px - 5.44vw), -2.72vw);
   transform-origin: 0% 0%;
@@ -203,7 +205,7 @@ sup {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   margin-left: 84px;
-  border-style: solid;
+  border-style: hidden solid solid solid;
   border-width: 1px;
   font-size: .7em;
 }
@@ -215,26 +217,26 @@ sup {
   align: middle;
 }
 
-.ltkclient {background-color: Pink; border-top: 1px solid black; grid-column: span 13;}
+.ltkclient {background-color: #a02a66; border-top: 1px solid black; grid-column: span 13;}
 .calclient {background-color: Khaki; border-top: 1px solid black; grid-column: span 13;}
-.navyclient {background-color: LightSteelBlue; border-top: 1px solid black; grid-column: span 13;}
+.navyclient {background-color: #82afd3; border-top: 1px solid black; grid-column: span 13;}
 .proj {grid-column: span 10}
 .jobdate {grid-column: span 3;}
-.plan {background-color: CornflowerBlue; grid-column:span 4; border-right: solid 1px black;}
-.sim {background-color: Orange; grid-column: span 2;}
-.analy {background-color: Gold; grid-column:span 3; border-style: hidden solid; border-width: 1px;}
-.design {background-color: LightGreen; grid-column:span 3;}
-.pm {background-color: Gray; grid-column: span 1; border-style: hidden solid; border-width: 1px;}
+.plan {background-color: #5675A2; grid-column:span 4; border-style: hidden solid border-width: 1px; font-weight: bold;}
+.sim {background-color: #95630d; grid-column: span 2; font-weight: bold;}
+.analy {background-color: #d3b646; grid-column:span 3; border-style: hidden solid; border-width: 1px; font-weight: bold;}
+.design {background-color: #5ecd5e; grid-column:span 3; font-weight: bold;}
+.pm {background-color: #808080; grid-column: span 1; border-style: hidden solid; border-width: 1px; font-weight: bold;}
 .ltk {background-color: Maroon; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
-.cal {background-color: Gold; border-top: 1px solid black; grid-column: span 13; font-weight: bold;}
-.navy {background-color: Navy; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
+.cal {background-color: #fdb515; border-top: 1px solid black; grid-column: span 13; font-weight: bold;}
+.navy {background-color: #012563; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
 .focus {grid-column: span 6;}
 
-.pcheck{background-color:CornflowerBlue; font-weight:bold;}
-.scheck{background-color:Orange; font-weight:bold;}
-.acheck{background-color:Gold; font-weight:bold;}
-.dcheck{background-color:LightGreen; font-weight:bold;}
-.pmcheck{background-color:Gray; font-weight:bold;}
+.pcheck{background-color: #5675A2; font-weight:bold;}
+.scheck{background-color: #95630d; font-weight:bold;}
+.acheck{background-color:#d3b646; font-weight:bold;}
+.dcheck{background-color:#5ecd5e; font-weight:bold;}
+.pmcheck{background-color:#808080; font-weight:bold;}
 
 .wrap-collabsible {grid-column:span 13;}
 
@@ -243,7 +245,8 @@ input[type='checkbox'] {display: none;}
 .lbl-toggle {
   display: block;
   text-align: center;
-  background: DarkGray;
+  background: #808080;
+  padding: 5px 0px;
   cursor: pointer;
 }
 
@@ -262,7 +265,7 @@ input[type='checkbox'] {display: none;}
 .edu-container {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  border: solid 1px black;
+  border: solid 1px #808080;
 }
 
 .edu-container > div {
