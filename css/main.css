@@ -217,14 +217,14 @@ sup {
   align: middle;
 }
 
-.ltkclient {background-color: #a02a66; border-top: 1px solid black; grid-column: span 13;}
+.ltkclient {background-color: #ff80aa; border-top: 1px solid black; grid-column: span 13;}
 .calclient {background-color: Khaki; border-top: 1px solid black; grid-column: span 13;}
 .navyclient {background-color: #82afd3; border-top: 1px solid black; grid-column: span 13;}
 .proj {grid-column: span 10}
 .jobdate {grid-column: span 3;}
 .plan {background-color: #5675A2; grid-column:span 4; border-style: hidden solid border-width: 1px; font-weight: bold;}
-.sim {background-color: #95630d; grid-column: span 2; font-weight: bold;}
-.analy {background-color: #d3b646; grid-column:span 3; border-style: hidden solid; border-width: 1px; font-weight: bold;}
+.sim {background-color: #ffa64d; grid-column: span 2; font-weight: bold;}
+.analy {background-color: #ffcc33; grid-column:span 3; border-style: hidden solid; border-width: 1px; font-weight: bold;}
 .design {background-color: #5ecd5e; grid-column:span 3; font-weight: bold;}
 .pm {background-color: #808080; grid-column: span 1; border-style: hidden solid; border-width: 1px; font-weight: bold;}
 .ltk {background-color: Maroon; border-top: 1px solid black; grid-column: span 13; font-weight: bold; color: white;}
@@ -233,8 +233,8 @@ sup {
 .focus {grid-column: span 6;}
 
 .pcheck{background-color: #5675A2; font-weight:bold;}
-.scheck{background-color: #95630d; font-weight:bold;}
-.acheck{background-color:#d3b646; font-weight:bold;}
+.scheck{background-color: #ffa64d; font-weight:bold;}
+.acheck{background-color:#ffcc33; font-weight:bold;}
 .dcheck{background-color:#5ecd5e; font-weight:bold;}
 .pmcheck{background-color:#808080; font-weight:bold;}
 
@@ -248,6 +248,7 @@ input[type='checkbox'] {display: none;}
   background: #808080;
   padding: 5px 0px;
   cursor: pointer;
+  margin: -5px;
 }
 
 .lbl-toggle:hover {font-weight: bold;}
