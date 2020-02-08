@@ -259,12 +259,11 @@ input[type='checkbox'] {display: none;}
 
 .toggle:checked + .lbl-toggle + .collapsible-content {max-height: 80vh;}
 
-.collapsible-content .content-inner {padding: 2px; text-align: left;}
+.collapsible-content .content-inner {padding: 10px; text-align: left;}
 
 .edu-container {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  border: solid 1px #808080;
 }
 
 .edu-container > div {
