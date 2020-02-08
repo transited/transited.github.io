@@ -205,8 +205,6 @@ sup {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   margin-left: 84px;
-  border-style: hidden solid solid solid;
-  border-width: 1px;
   font-size: .7em;
 }
 
@@ -217,7 +215,7 @@ sup {
   align: middle;
 }
 
-.ltkclient {background-color: #ff80aa; border-top: 1px solid black; grid-column: span 13;}
+.ltkclient {background-color: #f1c9d6; border-top: 1px solid black; grid-column: span 13;}
 .calclient {background-color: Khaki; border-top: 1px solid black; grid-column: span 13;}
 .navyclient {background-color: #82afd3; border-top: 1px solid black; grid-column: span 13;}
 .proj {grid-column: span 10}
@@ -245,10 +243,10 @@ input[type='checkbox'] {display: none;}
 .lbl-toggle {
   display: block;
   text-align: center;
-  background: #808080;
+  background: #bdbdbd;
   padding: 5px 0px;
   cursor: pointer;
-  margin-top: -5px;
+  margin: -5px 0px -5px 0px;
 }
 
 .lbl-toggle:hover {font-weight: bold;}
