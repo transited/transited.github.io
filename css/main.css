@@ -134,7 +134,6 @@ figure {
   border: 1px #cccccc solid;
   padding: 4px;
   margin: auto;
-  float: right;
   display: inline;
   max-width: 40%
 }
