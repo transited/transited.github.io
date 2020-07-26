@@ -130,6 +130,12 @@ sup {
   vertical-align: middle;
 }
 
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
 figcaption{
   color: #808080;
   text-align: center;
